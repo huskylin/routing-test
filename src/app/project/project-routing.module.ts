@@ -7,6 +7,7 @@ import { CctvComponent } from './cctv/cctv.component';
 const routes: Routes = [
   { path: '', component: ProjectComponent },
   { path: 'cctv', component: CctvComponent },
+  { path: '**', component: ProjectComponent }
 ];
 
 @NgModule({
